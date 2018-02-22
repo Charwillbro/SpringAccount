@@ -19,5 +19,4 @@ public class BeanConfiguration {
 		bean.setAccountDao(accountDao());
 		return bean;
 	}
-
 }
