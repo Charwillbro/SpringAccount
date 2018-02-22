@@ -1,11 +1,11 @@
 package beans;
 
-import	java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import	java.util.Map;
+import java.util.Map;
 
-public class AccountDaoInMemoryImpl implements AccountDao{
+public class AccountDaoInMemoryImpl implements AccountDao {
 
 	private Map<Long, Account> accountsMap = new HashMap<Long, Account>();
 	{
@@ -65,23 +65,4 @@ public class AccountDaoInMemoryImpl implements AccountDao{
 		return accounts;
 	}
 
-	public void update(List<Account> accounts) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public List<Account> find(List<Long> accountIds) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public List<Account> find(String ownerName) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public List<Account> find(boolean locked) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
